@@ -1,0 +1,66 @@
+{
+    "psi-header.config": {
+        "forceToTop": true,
+        "blankLinesAfter": 1,
+        "spacesBetweenYears": true,
+        "license": "MIT",
+        "author": "Godwin peter .O",
+        "initials": "GP",
+        "authorEmail": "me@godwin.dev",
+        "company": "drolx Solutions",
+        "copyrightHolder": "Godwin peter .O",
+        "creationDateZero": "asIs",
+        "hostname": "godwin.dev"
+    },
+    "psi-header.templates": [
+        {
+            "language": "*",
+            "template": [
+                "Copyright (c) <<yeartoyear(2023,now)>> <<company>>",
+                "",
+                "Licensed under the MIT License;",
+                "you may not use this file except in compliance with the License.",
+                "Unless required by applicable law or agreed to in writing, software",
+                "distributed under the License is distributed on an \"AS IS\" BASIS,",
+                "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+                "See the License for the specific language governing permissions and",
+                "limitations under the License.",
+                "",
+                "Author: <<author>> (<<authorEmail>>)",
+                "Created At: <<filecreated('dddd, Do MMM YYYY')>>",
+                "Modified By: <<author>>",
+                "Modified At: <<date>>"
+            ]
+        }
+    ],
+    "psi-header.changes-tracking": {
+        "isActive": true,
+        "modAuthor": "Modified By:",
+        "modDate": "Modified At:",
+        "modDateFormat": "dddd, Do MMM YYYY",
+        "include": [],
+        "includeGlob": [],
+        "exclude": [
+            "markdown",
+            "json",
+            "jsonc",
+            "shellscript"
+        ],
+        "excludeGlob": [
+            "./**/*/ignoreme.*"
+        ],
+        "autoHeader": "autoSave",
+        "enforceHeader": true,
+        "updateLicenseVariables": false
+    },
+    "psi-header.lang-config": [
+		{
+			"language": "csharp",
+			"begin": "",
+			"prefix": "// ",
+			"suffix": "",
+			"end": "",
+			"forceToTop": true
+		}
+	],
+}

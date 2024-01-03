@@ -1,0 +1,6 @@
+@CassandraSharp_HostAddress = http://localhost:5019
+
+GET {{CassandraSharp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
